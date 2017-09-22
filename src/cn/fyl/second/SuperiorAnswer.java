@@ -4,7 +4,7 @@ package cn.fyl.second;
  * 细节问题
  * Created by Fang on 2017/9/21.
  */
-public class Spuerior {
+public class SuperiorAnswer {
     public String replaceSpace(StringBuffer str) {
         if(str == null){
             return null;

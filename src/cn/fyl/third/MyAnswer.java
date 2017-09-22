@@ -19,14 +19,8 @@ public class MyAnswer {
             System.out.print(list.get(size).toString());
             newList.add(list.get(size));
         }
+        System.out.println();
         return newList;
     }
 
-}
-class ListNode {
-    int val;
-    ListNode next = null;
-    ListNode(int val) {
-        this.val = val;
-    }
 }

@@ -6,7 +6,7 @@ package cn.fyl.one;
  * 数组元素大了，上移，小了，右移。
  * Created by Fang on 2017/9/21.
  */
-public class Superior {
+public class SuperiorAnswer {
     public boolean Find(int target, int[][] array){
         int row = array.length - 1;
         int col = 0;
