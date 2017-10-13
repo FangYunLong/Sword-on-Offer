@@ -1,6 +1,6 @@
 package cn.fyl.six;
 
-import cn.fyl.six.MyAnswer;
+
 import org.junit.Test;
 
 /**
@@ -9,9 +9,9 @@ import org.junit.Test;
 public class TestAnswer {
     @Test
     public void test(){
-        MyAnswer answer = new MyAnswer();
-        int[] test = {1,3,5,2,6};
-        int min = answer.minNumberInRotateArray(test);
+        Solution solution = new Solution();
+        int[] test = {3,4,5,1,2};
+        int min = solution.minNumberInRotateArray(test);
         System.out.print("min:"+min);
 
     }

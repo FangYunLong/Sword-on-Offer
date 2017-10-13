@@ -22,6 +22,7 @@ public class MyAnswer {
         }
 
         int[] temp = new int[array.length];
+
         int size = array.length;
         if (size % 2 == 0) {
             for (int i = 0, j = size - 1; i < j; i++, j--) {
